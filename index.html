@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      h1 {
+        font-weight: bolder;
+        font-style: italic;
+        font-size: 80px;
+      }
+      p.mainDesc {
+        font-style: italic;
+        font-weight: bolder;
+        font-size: 25px;
+      }
+      .container {
+        background-image: url(images/camo2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-clip: content-box;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        filter: brightness(1);
+      }
+      .text {
+        color: #ffffff;
+        font-size: 30px;
+        text-align: center;
+        padding: 0.1em;
+        flex: 1; /* Set the text to take up half the available space */
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(30, 30, 30)">
+    <div class="container">
+      <div class="text">
+        <h1 class="title">Tact Vehicles</h1>
+      </div>
+    </div>
+  </body>
+</html>
